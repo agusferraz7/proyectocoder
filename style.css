@@ -337,7 +337,7 @@ main .bg-redes .ul-flex li a .redes:hover {
   }
 }
 /*estilo index tablet*/
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   main .flex-section div .index-title {
     font-size: 24px;
     padding: 8px;
