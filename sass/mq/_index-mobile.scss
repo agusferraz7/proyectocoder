@@ -1,0 +1,39 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+/*estilo index mobile*/
+@media (max-width: 768px){
+//sección principal
+    main{
+        .flex-section{
+            div{
+                .index-title{
+                    font-size: $x-medium;
+                    padding: 8px;
+                    margin: 0;
+                    width: 100%;
+                }
+                p{
+                    margin: 30px 0 0 0;
+                    font-size: $medium;
+                    width: 100%;
+                }
+            }
+            .vertical{
+                display: none;
+            }
+        }
+    }
+//sección video
+    section{
+        .video-flex{
+            @include flex-center;
+            margin: 0;
+            .video{
+                margin-top: 50px;
+                width: 100%;
+                height: 50vh;
+            }
+        }
+    }
+}

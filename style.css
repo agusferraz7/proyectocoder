@@ -309,4 +309,59 @@ main .bg-redes .ul-flex li a .redes:hover {
   transform: scale(1.3);
 }
 
+/*estilo index mobile*/
+@media (max-width: 768px) {
+  main .flex-section div .index-title {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+  }
+  main .flex-section div p {
+    margin: 30px 0 0 0;
+    font-size: 18px;
+    width: 100%;
+  }
+  main .flex-section .vertical {
+    display: none;
+  }
+  section .video-flex {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  section .video-flex .video {
+    margin-top: 50px;
+    width: 100%;
+    height: 50vh;
+  }
+}
+/*estilo index tablet*/
+@media (max-width: 1024px) {
+  main .flex-section div .index-title {
+    font-size: 24px;
+    padding: 8px;
+    margin: 0px 0 0 50px;
+    width: 85%;
+  }
+  main .flex-section div p {
+    margin: 30px 0 0 50px;
+    font-size: 22px;
+    width: 85%;
+  }
+  main .flex-section .vertical {
+    display: none;
+  }
+  section .video-flex {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  section .video-flex .video {
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
