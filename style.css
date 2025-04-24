@@ -283,7 +283,7 @@ main section .pics-grid img:hover {
 
 /*estilo redes sociales*/
 main .bg-redes {
-  background-image: url(../../img/redes/pic-redes.jpg);
+  background-image: url(https://agusferraz7.github.io/proyectocoder/img/redes/pic-redes.jpg);
   background-size: cover;
   background-position: top;
   width: 100%;
