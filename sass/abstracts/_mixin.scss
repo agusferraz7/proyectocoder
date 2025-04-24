@@ -31,7 +31,7 @@
 
 //mixin bg-discos
 @mixin disco-styles{
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/proyectocoder/img/musica/disco-uno.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://agusferraz7.github.io/proyectocoder/img/musica/disco-uno.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -43,7 +43,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 @mixin disco-dos-styles{
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/proyectocoder/img/musica/disco-dos.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://agusferraz7.github.io/proyectocoder/img/musica/disco-dos.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -55,7 +55,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 @mixin disco-tres-styles{
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/proyectocoder/img/musica/disco-tres.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://agusferraz7.github.io/proyectocoder/img/musica/disco-tres.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
