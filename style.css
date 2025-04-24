@@ -141,7 +141,7 @@ main .cd-grid {
   padding: 15px;
 }
 main .cd-grid .bg-discos {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-uno.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/musica/disco-uno.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -179,7 +179,7 @@ main .cd-grid .bg-discos .decoration-none a:hover {
   border-bottom: 2px solid rgba(177, 21, 21, 0.736);
 }
 main .cd-grid .bg-discos-dos {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-dos.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/musica/disco-dos.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -217,7 +217,7 @@ main .cd-grid .bg-discos-dos .decoration-none a:hover {
   border-bottom: 2px solid rgba(177, 21, 21, 0.736);
 }
 main .cd-grid .bg-discos-tres {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-tres.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/musica/disco-tres.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
