@@ -1,0 +1,39 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+/*estilo menú de navegación*/
+header{
+    nav{
+        background-color: #000000;
+        div{
+            div{
+                ul{
+                    align-items: center;
+                    a{
+                        img{
+                            width: 60px;
+                            height: auto;
+                            border: 2px solid;
+                            color: $color-gray;
+                            @include border-radius(100%);
+                            &:hover{
+                                border: 3px solid $color-red;
+                                @include border-radius (100%);
+                            }
+                        }
+                    }
+                    li{
+                        .nav-link{
+                            color: $color-gray;
+                            font-weight: bold;
+                            font-size: $small;
+                            &:hover{
+                                color: $color-red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

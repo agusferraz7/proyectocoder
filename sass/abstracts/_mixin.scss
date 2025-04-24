@@ -1,0 +1,83 @@
+//mixin border-radius
+@mixin border-radius($radius){
+    border-radius: $radius;
+}
+
+//mixin transition
+@mixin transition{
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+//mixin flex
+@mixin flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+//mixin grid
+@mixin display-grid ($column){
+	display: grid;
+	grid-template-columns: $column;
+}
+
+//mixin title-pages
+@mixin title-pages{
+    font-size: 36px;
+    color: $color-gray;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+
+//mixin bg-discos
+@mixin disco-styles{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-uno.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@mixin disco-dos-styles{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-dos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@mixin disco-tres-styles{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-tres.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+//mixin title-songs
+@mixin title-songs-style{
+	font-size: $large;
+    color: $color-red;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}

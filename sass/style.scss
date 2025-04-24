@@ -1,0 +1,15 @@
+//estilos reset y generales
+@use "base/reset";
+
+//estilos layout
+@use "layout/navigation";
+@use "layout/footer";
+
+//estilos pages
+@use "pages/index";
+@use "pages/integrantes";
+@use "pages/musica";
+@use "pages/fotos";
+@use "pages/redes";
+
+//media queries

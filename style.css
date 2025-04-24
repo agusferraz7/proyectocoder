@@ -1,0 +1,312 @@
+@charset "UTF-8";
+/*reset y estilos generales*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #1d1c1c !important;
+}
+
+/*estilo menú de navegación*/
+header nav {
+  background-color: #000000;
+}
+header nav div div ul {
+  align-items: center;
+}
+header nav div div ul a img {
+  width: 60px;
+  height: auto;
+  border: 2px solid;
+  color: rgba(181, 178, 178, 0.849);
+  border-radius: 100%;
+}
+header nav div div ul a img:hover {
+  border: 3px solid rgba(177, 21, 21, 0.736);
+  border-radius: 100%;
+}
+header nav div div ul li .nav-link {
+  color: rgba(181, 178, 178, 0.849);
+  font-weight: bold;
+  font-size: 14px;
+}
+header nav div div ul li .nav-link:hover {
+  color: rgba(177, 21, 21, 0.736);
+}
+
+/*estilo footer*/
+footer {
+  text-align: center;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(227, 221, 213);
+  margin: 20px 0 5px 0;
+}
+
+/*estilos index*/
+section div .portada {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+main .flex-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 80px 0 80px;
+}
+main .flex-section div .index-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(227, 221, 213);
+  background-color: rgba(177, 21, 21, 0.736);
+  padding: 10px;
+  margin: 60px;
+  width: 65%;
+}
+main .flex-section div p {
+  color: rgba(181, 178, 178, 0.849);
+  margin: 60px;
+  font-size: 18px;
+  width: 60%;
+}
+main .flex-section .vertical {
+  width: 40%;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+
+section .video-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+section .video-flex .video {
+  width: 100%;
+  height: 100vh;
+}
+
+/*estilo integrantes*/
+main .grid-integrantes {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main .grid-integrantes div .title-pages {
+  font-size: 36px;
+  color: rgba(181, 178, 178, 0.849);
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+main .grid-integrantes div .integrantes {
+  width: 60%;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main .grid-integrantes div .integrantes:hover {
+  box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
+}
+main .grid-integrantes div .title-cada {
+  color: rgba(177, 21, 21, 0.736);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+main .grid-integrantes div p {
+  color: rgba(181, 178, 178, 0.849);
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/*estilo música*/
+main div .title-pages {
+  font-size: 36px;
+  color: rgba(181, 178, 178, 0.849);
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+main .cd-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 15px;
+}
+main .cd-grid .bg-discos {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-uno.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main .cd-grid .bg-discos:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
+}
+main .cd-grid .bg-discos .title-songs {
+  font-size: 22px;
+  color: rgba(177, 21, 21, 0.736);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  width: 100%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+main .cd-grid .bg-discos .decoration-none a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+main .cd-grid .bg-discos .decoration-none a:hover {
+  border-bottom: 2px solid rgba(177, 21, 21, 0.736);
+}
+main .cd-grid .bg-discos-dos {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-dos.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main .cd-grid .bg-discos-dos:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
+}
+main .cd-grid .bg-discos-dos .title-songs {
+  font-size: 22px;
+  color: rgba(177, 21, 21, 0.736);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  width: 100%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+main .cd-grid .bg-discos-dos .decoration-none a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+main .cd-grid .bg-discos-dos .decoration-none a:hover {
+  border-bottom: 2px solid rgba(177, 21, 21, 0.736);
+}
+main .cd-grid .bg-discos-tres {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/musica/disco-tres.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main .cd-grid .bg-discos-tres:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
+}
+main .cd-grid .bg-discos-tres .title-songs {
+  font-size: 22px;
+  color: rgba(177, 21, 21, 0.736);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  width: 100%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+main .cd-grid .bg-discos-tres .decoration-none a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+main .cd-grid .bg-discos-tres .decoration-none a:hover {
+  border-bottom: 2px solid rgba(177, 21, 21, 0.736);
+}
+
+/*estilo fotos*/
+main section .title-pages {
+  font-size: 36px;
+  color: rgba(181, 178, 178, 0.849);
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+main section .pics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  justify-items: center;
+  padding: 5px;
+}
+main section .pics-grid img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main section .pics-grid img:hover {
+  box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
+}
+
+/*estilo redes sociales*/
+main .bg-redes {
+  background-image: url(../../img/redes/pic-redes.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100vh;
+}
+main .bg-redes .ul-flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+main .bg-redes .ul-flex li {
+  list-style: none;
+}
+main .bg-redes .ul-flex li a .redes {
+  width: 50px;
+  backdrop-filter: blur(1px);
+  margin-top: 50px;
+}
+main .bg-redes .ul-flex li a .redes:hover {
+  border: 3px solid rgba(177, 21, 21, 0.736);
+  border-radius: 100%;
+  transform: scale(1.3);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+/*estilo integrantes*/
+main{
+    .grid-integrantes{
+        @include display-grid (1fr);
+        div{
+            .title-pages{
+                @include title-pages;
+            }
+        }
+        div{
+            .integrantes{
+                width: 60%;
+                @include border-radius(15px);
+                @include transition;
+                &:hover{
+                    box-shadow: 0 0 10px $color-red;
+                }
+            }
+            .title-cada{
+                color: $color-red;
+                font-weight: bold;
+                font-size: $x-medium;
+                margin-top: 20px;
+            }
+            p{
+                color: $color-gray;
+                font-size: $x-small;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

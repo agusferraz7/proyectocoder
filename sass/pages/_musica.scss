@@ -1,0 +1,80 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+/*estilo música*/
+main{
+    div{
+        .title-pages{
+            @include title-pages;
+        }
+    }
+    .cd-grid{
+        @include display-grid(repeat(3, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 15px;
+        .bg-discos{
+            @include disco-styles;
+            &:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 10px $color-red;
+            }
+            .title-songs{
+                @include title-songs-style;
+            }
+            .decoration-none{
+                a{
+                    font-size: $medium;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    &:hover{
+                        border-bottom: 2px solid $color-red;
+                    }
+                }
+            }
+        }
+        .bg-discos-dos{
+            @include disco-dos-styles;
+            &:hover{
+                transform: scale(1.05);
+                box-shadow: 0 0 10px $color-red;
+            }
+            .title-songs{
+                @include title-songs-style;
+            }
+            .decoration-none{
+                a{
+                    font-size: $medium;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    &:hover{
+                        border-bottom: 2px solid $color-red;
+                    }
+                }
+            }
+        }
+        .bg-discos-tres{
+            @include disco-tres-styles;
+            &:hover{
+                transform: scale(1.05);
+                box-shadow: 0 0 10px $color-red;
+            }
+            .title-songs{
+                @include title-songs-style;
+            }
+            .decoration-none{
+                a{
+                    font-size: $medium;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    &:hover{
+                        border-bottom: 2px solid $color-red;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+/*estilo fotos*/
+main{
+    section{
+        .title-pages{
+            @include title-pages;
+        }
+        .pics-grid{
+            @include display-grid(repeat(2, 1fr));
+            row-gap: 5px;
+            column-gap: 5px;
+            justify-items: center;
+            padding: 5px;
+            img{
+                width: 100%;
+                height: 70vh;
+                @include border-radius(15px);
+                @include transition;
+                &:hover{
+                    box-shadow: 0 0 10px $color-red;
+                }
+            }
+        }
+    }
+}
