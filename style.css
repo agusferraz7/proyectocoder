@@ -461,5 +461,36 @@ main .bg-redes .ul-flex li a .redes:hover {
     font-size: 18px;
   }
 }
+/*estilo fotos mobile*/
+@media (max-width: 768px) {
+  main section .title-pages {
+    font-size: 20px;
+    padding: 8px;
+    margin: 20px 0 20px 0;
+  }
+  main section .pics-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    padding: 5px;
+  }
+  main section .pics-grid img {
+    height: auto;
+  }
+}
+/*estilo fotos tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  main section .title-pages {
+    font-size: 24px;
+  }
+  main section .pics-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  main section .pics-grid img {
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
