@@ -492,5 +492,36 @@ main .bg-redes .ul-flex li a .redes:hover {
     height: auto;
   }
 }
+/*estilo redes mobile*/
+@media (max-width: 768px) {
+  main .bg-redes {
+    height: 100vh;
+  }
+  main .bg-redes .ul-flex {
+    gap: 15px;
+  }
+  main .bg-redes .ul-flex li a .redes {
+    width: 40px;
+    backdrop-filter: blur(1px);
+    margin-top: 30px;
+  }
+  main .bg-redes .ul-flex li a .redes:hover {
+    transform: none;
+  }
+}
+/*estilo redes tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  main .bg-redes {
+    height: 100vh;
+  }
+  main .bg-redes .ul-flex {
+    gap: 20px;
+  }
+  main .bg-redes .ul-flex li a .redes {
+    width: 50px;
+    backdrop-filter: blur(1px);
+    margin-top: 50px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

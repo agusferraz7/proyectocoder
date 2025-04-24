@@ -1,7 +1,27 @@
 @import "../abstracts/variables";
 @import "../abstracts/mixin";
 
-/*estilo index mobile*/
+/*estilo redes mobile*/
 @media (max-width: 768px){
 //sección principal
+    main{
+        .bg-redes{
+            height: 100vh;
+            .ul-flex{
+                gap: 15px;
+                li{
+                    a{
+                        .redes{
+                            width: 40px;
+                            backdrop-filter: blur(1px);
+                            margin-top: 30px;
+                            &:hover{
+                                transform: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

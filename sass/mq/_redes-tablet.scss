@@ -4,4 +4,21 @@
 /*estilo redes tablet*/
 @media (min-width: 768px) and (max-width: 1024px){
 //sección principal
+    main{
+        .bg-redes{
+            height: 100vh;
+            .ul-flex{
+                gap: 20px;
+                li{
+                    a{
+                        .redes{
+                            width: 50px;
+                            backdrop-filter: blur(1px);
+                            margin-top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
