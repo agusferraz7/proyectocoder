@@ -1,7 +1,47 @@
 @import "../abstracts/variables";
 @import "../abstracts/mixin";
 
-/*estilo index tablet*/
+/*estilo música tablet*/
 @media (min-width: 768px) and (max-width: 1024px){
 //sección principal
+    main{
+        div{
+            .title-pages{
+                font-size: $x-large;
+            }
+        }
+        .cd-grid{
+            @include display-grid(repeat(2, 1fr));
+            .bg-discos{
+                .title-songs{
+                    font-size: $x-large;
+                }
+                .decoration-none{
+                    a{
+                        font-size: $medium;
+                    }
+                }
+            }
+            .bg-discos-dos{
+                .title-songs{
+                    font-size: $x-large;
+                }
+                .decoration-none{
+                    a{
+                        font-size: $medium;
+                    }
+                }
+            }
+            .bg-discos-tres{
+                .title-songs{
+                    font-size: $x-large;
+                }
+                .decoration-none{
+                    a{
+                        font-size: $medium;
+                    }
+                }
+            }
+        }
+    }
 }

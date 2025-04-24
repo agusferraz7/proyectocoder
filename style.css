@@ -363,7 +363,7 @@ main .bg-redes .ul-flex li a .redes:hover {
     height: 70vh;
   }
 }
-/*estilo index mobile*/
+/*estilo integrantes mobile*/
 @media (max-width: 768px) {
   main .grid-integrantes div .title-pages {
     font-size: 20px;
@@ -387,7 +387,7 @@ main .bg-redes .ul-flex li a .redes:hover {
   main .grid-integrantes div .title-pages {
     font-size: 24px;
     padding: 8px;
-    margin: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
   }
   main .grid-integrantes div .integrantes {
     width: 80%;
@@ -399,6 +399,66 @@ main .bg-redes .ul-flex li a .redes:hover {
   main .grid-integrantes div p {
     font-size: 20px;
     margin-bottom: 25px;
+  }
+}
+/*estilo música mobile*/
+@media (max-width: 768px) {
+  main div .title-pages {
+    font-size: 20px;
+    padding: 8px;
+    margin: 20px 0 20px 0;
+  }
+  main .cd-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+    padding: 0 20px;
+  }
+  main .cd-grid .bg-discos {
+    transition: none;
+  }
+  main .cd-grid .bg-discos:hover {
+    transform: none;
+  }
+  main .cd-grid .bg-discos-dos {
+    transition: none;
+  }
+  main .cd-grid .bg-discos-dos:hover {
+    transform: none;
+  }
+  main .cd-grid .bg-discos-tres {
+    transition: none;
+  }
+  main .cd-grid .bg-discos-tres:hover {
+    transform: none;
+  }
+}
+/*estilo música tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  main div .title-pages {
+    font-size: 24px;
+  }
+  main .cd-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .cd-grid .bg-discos .title-songs {
+    font-size: 24px;
+  }
+  main .cd-grid .bg-discos .decoration-none a {
+    font-size: 18px;
+  }
+  main .cd-grid .bg-discos-dos .title-songs {
+    font-size: 24px;
+  }
+  main .cd-grid .bg-discos-dos .decoration-none a {
+    font-size: 18px;
+  }
+  main .cd-grid .bg-discos-tres .title-songs {
+    font-size: 24px;
+  }
+  main .cd-grid .bg-discos-tres .decoration-none a {
+    font-size: 18px;
   }
 }
 

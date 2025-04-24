@@ -1,0 +1,39 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+/*estilo música mobile*/
+@media (max-width: 768px){
+//sección principal
+    main{
+        div{
+            .title-pages{
+                font-size: $x-medium;
+                padding: 8px;
+                margin: 20px 0 20px 0;
+            }
+        }
+        .cd-grid{
+            @include display-grid(1fr);
+            row-gap: 15px;
+            padding: 0 20px;
+            .bg-discos{
+                transition: none;
+                &:hover{
+                    transform: none;
+                }
+            }
+            .bg-discos-dos{
+                transition: none;
+                &:hover{
+                    transform: none;
+                }
+            }
+            .bg-discos-tres{
+                transition: none;
+                &:hover{
+                    transform: none;
+                }
+            }
+        }
+    }
+}
