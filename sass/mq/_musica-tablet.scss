@@ -13,6 +13,9 @@
         .cd-grid{
             @include display-grid(repeat(2, 1fr));
             .bg-discos{
+                &:hover{
+                    transform: scale(1.05);
+                }
                 .title-songs{
                     font-size: $x-large;
                 }
@@ -23,6 +26,9 @@
                 }
             }
             .bg-discos-dos{
+                &:hover{
+                    transform: scale(1.05);
+                }
                 .title-songs{
                     font-size: $x-large;
                 }
@@ -33,6 +39,9 @@
                 }
             }
             .bg-discos-tres{
+                &:hover{
+                    transform: scale(1.05);
+                }
                 .title-songs{
                     font-size: $x-large;
                 }

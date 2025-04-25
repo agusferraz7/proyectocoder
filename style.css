@@ -112,6 +112,7 @@ main .grid-integrantes div .integrantes {
 }
 main .grid-integrantes div .integrantes:hover {
   box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
+  transform: scale(1.05);
 }
 main .grid-integrantes div .title-cada {
   color: rgba(177, 21, 21, 0.736);
@@ -267,7 +268,6 @@ main section .pics-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 5px;
-  column-gap: 5px;
   justify-items: center;
   padding: 5px;
 }
@@ -278,6 +278,7 @@ main section .pics-grid img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 main section .pics-grid img:hover {
+  transform: scale(1.01);
   box-shadow: 0 0 10px rgba(177, 21, 21, 0.736);
 }
 
@@ -315,7 +316,7 @@ main .bg-redes .ul-flex li a .redes:hover {
     font-size: 20px;
     padding: 8px;
     margin: 0;
-    width: 100%;
+    width: 350px;
   }
   main .flex-section div p {
     margin: 30px 0 0 0;
@@ -414,24 +415,6 @@ main .bg-redes .ul-flex li a .redes:hover {
     row-gap: 15px;
     padding: 0 20px;
   }
-  main .cd-grid .bg-discos {
-    transition: none;
-  }
-  main .cd-grid .bg-discos:hover {
-    transform: none;
-  }
-  main .cd-grid .bg-discos-dos {
-    transition: none;
-  }
-  main .cd-grid .bg-discos-dos:hover {
-    transform: none;
-  }
-  main .cd-grid .bg-discos-tres {
-    transition: none;
-  }
-  main .cd-grid .bg-discos-tres:hover {
-    transform: none;
-  }
 }
 /*estilo música tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -442,17 +425,26 @@ main .bg-redes .ul-flex li a .redes:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  main .cd-grid .bg-discos:hover {
+    transform: scale(1.05);
+  }
   main .cd-grid .bg-discos .title-songs {
     font-size: 24px;
   }
   main .cd-grid .bg-discos .decoration-none a {
     font-size: 18px;
   }
+  main .cd-grid .bg-discos-dos:hover {
+    transform: scale(1.05);
+  }
   main .cd-grid .bg-discos-dos .title-songs {
     font-size: 24px;
   }
   main .cd-grid .bg-discos-dos .decoration-none a {
     font-size: 18px;
+  }
+  main .cd-grid .bg-discos-tres:hover {
+    transform: scale(1.05);
   }
   main .cd-grid .bg-discos-tres .title-songs {
     font-size: 24px;

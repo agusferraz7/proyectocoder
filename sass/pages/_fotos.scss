@@ -10,7 +10,6 @@ main{
         .pics-grid{
             @include display-grid(repeat(2, 1fr));
             row-gap: 5px;
-            column-gap: 5px;
             justify-items: center;
             padding: 5px;
             img{
@@ -19,6 +18,7 @@ main{
                 @include border-radius(15px);
                 @include transition;
                 &:hover{
+                    transform: scale(1.01);
                     box-shadow: 0 0 10px $color-red;
                 }
             }

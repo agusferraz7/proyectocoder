@@ -15,8 +15,10 @@ main{
                 width: 60%;
                 @include border-radius(15px);
                 @include transition;
+                
                 &:hover{
                     box-shadow: 0 0 10px $color-red;
+                    transform: scale(1.05);
                 }
             }
             .title-cada{

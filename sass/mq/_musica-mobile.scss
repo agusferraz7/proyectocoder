@@ -16,24 +16,6 @@
             @include display-grid(1fr);
             row-gap: 15px;
             padding: 0 20px;
-            .bg-discos{
-                transition: none;
-                &:hover{
-                    transform: none;
-                }
-            }
-            .bg-discos-dos{
-                transition: none;
-                &:hover{
-                    transform: none;
-                }
-            }
-            .bg-discos-tres{
-                transition: none;
-                &:hover{
-                    transform: none;
-                }
-            }
         }
     }
 }
